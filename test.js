@@ -1,0 +1,1 @@
+alert("The page is loaded");

@@ -1,0 +1,218 @@
+
+<html><body>
+<style type="text/css">
+body{
+        background-color: black;
+    }
+    
+    p,b,u,i,h1,h2,h3,h4,h5,h6,span{
+        color:rgb(195, 231, 33);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </style>
+
+<p id="pp">Guess the picture...</p>
+<select id="inp">
+   <option>Habib</option>
+   <option>Abid</option>
+   <option>Momena</option>
+
+
+
+</select>
+<button id="bt">Go...</button>
+
+
+
+
+
+<script type="text/javascript">
+
+var dd;
+
+document.getElementById("bt").onclick=function(){
+    var inp;
+inp=document.getElementById("inp").value;
+if(inp=="Habib"){
+    dd=0;
+    alert("You are right...!!! The text is Habib...")
+}
+if(inp=="Abid"){
+    dd=1;
+    alert("You are right...!!! The text is Abid...")
+}
+if(inp=="Momena"){
+    dd=2;
+    alert("You are right...!!! The text is Momena...")
+}
+
+
+var gg=1;
+var fal=false;
+while(fal==false){
+    var ran=Math.random();
+ran=ran*3;
+ran=Math.floor(ran);
+
+      if(dd==ran){
+          fal=true;
+      }
+      else{
+          gg++;
+      }
+    }
+      if(ran==dd){
+    alert("Nice The Num was "+ran+" It took "+gg+" Searches...");
+}
+else{
+    alert("No...The Number is unmatched..."+"The right num is "+ran+" It took "+gg+" Guesses.");
+    
+}
+}
+  
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
